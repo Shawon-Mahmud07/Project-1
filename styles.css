@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  font-family: "Work Sans";
 }
 
 /* ===========Header Section styles============ */
@@ -17,7 +16,7 @@
 .header-section {
   padding-top: 150px;
   width: 525px;
-  height: 600px;
+  height: 500px;
   text-align: right;
   margin-right: 150px;
 }
@@ -49,4 +48,61 @@
   background: #f15b22;
   border-radius: 5px;
   border: none;
+}
+
+/* ==========main section style=========== */
+.main-container {
+  width: 100%;
+  height: 100vh;
+}
+.My-failure-section {
+  display: flex;
+  width: 1072px;
+  justify-content: space-evenly;
+  margin: 145px 322px 0px 100px;
+  padding-right: 300px;
+}
+.My-failure-section-img img {
+  width: 390px;
+  height: 480px;
+}
+.My-failure-section-title h1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+}
+.title-margin {
+  margin-bottom: 24px;
+}
+.My-failure-section-description {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 16px;
+  width: 416px;
+  height: 104px;
+}
+.check-list {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.check-list li img {
+  width: 25px;
+}
+.check-list li {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  color: #444343;
+  display: flex;
+  margin-bottom: 10px;
 }
