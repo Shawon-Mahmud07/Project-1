@@ -1,13 +1,15 @@
 * {
   margin: 0;
-  /* border: 1px solid red; */
 }
-
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
 /* ===========Header Section styles============ */
 
 .header-container {
   width: 1400px;
-  height: 100vh;
   background-image: url(images/banner/banner2.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,8 +25,8 @@
 }
 .header-title {
   font-style: normal;
-  font-weight: 700;
-  font-size: 65px;
+  font-weight: 900;
+  font-size: 70px;
   line-height: 76px;
   color: #151414;
   margin-bottom: 24px;
@@ -71,6 +73,10 @@
 .My-failure-section-img img {
   width: 390px;
   height: 480px;
+  padding: 0 80px;
+}
+.failure-section-container {
+  margin-top: 50px;
 }
 .My-failure-section-title h1 {
   font-family: "Work Sans";
@@ -184,8 +190,8 @@
   text-align: center;
   font-family: "Work Sans";
   font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
+  font-weight: 900;
+  font-size: 50px;
   line-height: 47px;
   color: #151414;
 }
@@ -217,12 +223,13 @@
 .Plans-description {
   font-family: "Work Sans";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 17px;
   line-height: 22px;
   color: #737272;
 }
 
+/* =========gradient-background======== */
 .gradient-background {
   background-image: linear-gradient(
       to left,
@@ -246,6 +253,7 @@
   line-height: 47px;
   color: #ffffff;
   margin-bottom: 20px;
+  margin-left: 40px;
 }
 .btn-success {
   font-family: "Work Sans";
@@ -260,4 +268,98 @@
   background: #ffffff;
   border-radius: 5px;
   border: none;
+  margin-left: 40px;
+}
+
+/* =========footer Section========= */
+
+.footer-section {
+  margin-top: 70px;
+  background-color: #1e1e1e;
+  height: 500px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 120px;
+}
+.footer-title {
+  width: 148px;
+  height: 53px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+  margin-top: 140px;
+  margin-bottom: 16px;
+}
+.footer-description {
+  width: 485px;
+  height: 78px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.footer-form-title {
+  width: 123px;
+  height: 29px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+input[type="email"] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  width: 325px;
+  height: 64px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  outline-style: 1px solid #ffffff;
+  border-radius: 8px;
+  background-color: #151414;
+}
+input[type="email"]::placeholder {
+  color: #ccc;
+}
+
+input[type="submit"] {
+  width: 160px;
+  height: 54px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #f15b22;
+  border-radius: 7px;
+}
+.text {
+  margin-bottom: 0;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.footer-img img {
+  margin-left: 13px;
 }
