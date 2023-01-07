@@ -2,8 +2,8 @@
   margin: 0;
 }
 body {
+  min-height: 100vh;
   width: 100vw;
-  height: 100vh;
   overflow-x: hidden;
 }
 /* ===========Header Section styles============ */
@@ -269,6 +269,8 @@ body {
   border-radius: 5px;
   border: none;
   margin-left: 40px;
+
+  cursor: pointer;
 }
 
 /* =========footer Section========= */
@@ -283,6 +285,7 @@ body {
   justify-content: space-around;
   align-items: center;
   margin-top: 120px;
+  margin-left: 50px;
 }
 .footer-title {
   width: 148px;
@@ -349,6 +352,7 @@ input[type="submit"] {
   font-size: 20px;
   color: #f15b22;
   border-radius: 7px;
+  cursor: pointer;
 }
 .text {
   margin-bottom: 0;
@@ -362,4 +366,5 @@ input[type="submit"] {
 }
 .footer-img img {
   margin-left: 13px;
+  cursor: pointer;
 }
