@@ -30,6 +30,7 @@
   font-family: "Work Sans";
 }
 .header-description {
+  font-family: "Work Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -48,6 +49,7 @@
   background: #f15b22;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 }
 
 /* ==========main section style=========== */
