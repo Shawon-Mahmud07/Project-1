@@ -6,7 +6,7 @@
 /* ===========Header Section styles============ */
 
 .header-container {
-  width: 1340px;
+  width: 1400px;
   height: 100vh;
   background-image: url(images/banner/banner2.png);
   background-repeat: no-repeat;
@@ -56,8 +56,7 @@
 /* ==========main container style=========== */
 
 .main-container {
-  max-width: 1140px;
-  width: 100%;
+  width: 1140px;
   height: 100vh;
 }
 
@@ -116,7 +115,7 @@
 
 /* ============Community-section========= */
 .Community-section {
-  width: 100%;
+  width: 1400px;
   height: 100vh;
   background-color: #f3f3f3;
 }
@@ -167,4 +166,117 @@
   border-radius: 5px;
   border: none;
   cursor: pointer;
+}
+
+/*=============Plans section============ */
+
+.Plans-section {
+  width: 100%;
+  height: 100vh;
+}
+.Plans-sub-section {
+  width: 900px;
+  height: 300px;
+  margin: 130px 230px;
+}
+.Plans-top-title {
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+}
+.Plans-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+}
+.Plans-sub-container {
+  margin: 10px;
+}
+.Plans-img img {
+  width: 40%;
+}
+
+.Plans-title {
+  color: #151414;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.Plans-description {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  color: #737272;
+}
+
+/* .gradient-background-section {
+  width: 100%;
+  height: 330px;
+}
+.gradient-background {
+  width: 900px;
+  height: 200px;
+  background-image: url(images/watch.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 0, 0, 0.128),
+    rgba(0, 0, 255, 0.139)
+  );
+  border-radius: 8px;
+} */
+
+.gradient-background {
+  background-image: linear-gradient(
+      to left,
+      rgba(142, 152, 209, 0.52),
+      rgba(162, 24, 128, 0.73)
+    ),
+    url("images/watch.png");
+  width: 70%;
+  margin: 0 auto;
+  height: 150px;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+}
+.gradient-title {
+  width: 500px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.btn-success {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #f15b22;
+  width: 110px;
+  height: 44px;
+  background: #ffffff;
+  border-radius: 5px;
 }
